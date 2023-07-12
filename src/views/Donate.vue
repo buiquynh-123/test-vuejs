@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="">
+  <div class="pb-10">
     <div
       class="xl:max-w-[1200px] mx-auto lg:max-w-[1024px] md:max-w-[768px] sm:max-w-[640px] border-b-2 border-slate-100"
     >
@@ -19,7 +19,7 @@
       <div
         class="grid lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-2 grid-cols-1 py-10"
       >
-        <div class="lg:p-4 xl:p-4 mx-auto lg:w-4/5 xl:w-4/5 md:w-4/5 w-1/2">
+        <div class="lg:p-4 xl:p-4 mx-auto lg:w-3/5 xl:w-3/5 w-4/5">
           <div
             class="h-[150px] bg-[#3273dc]"
             :class="{ 'h-[90px]': currentStep !== 3 }"
@@ -403,9 +403,9 @@
         class="grid lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-2 grid-cols-1"
       >
         <div
-          class="lg:p-4 xl:p-4 p-2 w-4/5 lg:w-3/5 xl:w-3/5 mx-auto shadow-md"
+          class="lg:p-4 xl:p-4 p-2 w-4/5 lg:w-3/5 xl:w-3/5 mx-auto shadow-md rounded-md"
         >
-          <div class="flex bg-green-700 p-4 rounded">
+          <div class="flex bg-green-700 p-4">
             <div
               class="rounded-md overflow-hidden lg:h-16 xl:h-16 lg:w-20 xl:w-20 h-12 w-18"
             >
