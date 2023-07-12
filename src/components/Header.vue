@@ -6,11 +6,16 @@
     >
       <div class="flex items-center">
         <div class="w-36">
-          <img
-            class="w-full"
-            src="https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png"
-            alt=""
-          />
+          <a
+            href="/
+          "
+          >
+            <img
+              class="w-full"
+              src="https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png"
+              alt=""
+            />
+          </a>
         </div>
         <div class="w-full">
           <ul class="w-full hidden lg:flex items-center justify-end">
